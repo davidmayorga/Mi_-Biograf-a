@@ -1,0 +1,30 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html
+{
+    font-size: 62.5%; /*equivale a 10px*/
+}
+.parent
+{
+    border: 2px black dotted;
+    display: block;
+}
+.box
+{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+
+}
+#two
+{
+    background-color: green;
+    position: absolute;
+    height: 50px;
+}
