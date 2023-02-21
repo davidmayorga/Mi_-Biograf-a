@@ -4,6 +4,15 @@
     padding: 0;
     margin: 0;
 }
+html
+{
+    font-size: 62.5%; /*equivale a 10px*/
+    font-family: fantasy;
+}
+body
+{
+    font-size: 2rem;
+}
 h1
 {
     color: purple;
@@ -33,7 +42,7 @@ h1
 {
     color: white;
     background-color: #13a4a4;
-    padding: 5px;
+    padding: 5px;   
     border-radius: 2px;
     text-decoration: none;
 }
@@ -61,4 +70,8 @@ div {
 
 body{
     background-image: url(../img/codm_2022-12-26_12_03_50.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
