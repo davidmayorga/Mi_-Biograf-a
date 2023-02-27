@@ -7,24 +7,33 @@
 html
 {
     font-size: 62.5%; /*equivale a 10px*/
+    text-align: center;
 }
-body
+
+h1
 {
-    font-size: 1.6rem;
-    justify-content: center;
-    text-align:  center;
-
-
+    font-size: 36px;
 }
-
-#page-title
+.k
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 
+}
+.D
+{
+
+    width: 50%;
 
 }
 
+body{
+    /*background-image: url(../img/imagen_fondo_familia.jpg);*/
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
+}
 #main-nav
 {
     margin-top: 10px;
@@ -39,9 +48,10 @@ body
 {
     color: white;
     background-color: #13a4a4;
-    padding: 5px;   
-    border-radius: 2px;
+    padding: 10px;   
+    border-radius: px;
     text-decoration: none;
+    font-size: 40px;
 }
 #main-nav .padres
 {
@@ -49,9 +59,5 @@ body
 }
 .atras
 {
-    text-align: l;
+    text-align: left;
 }   
-
-.container {
-    text-align: center;
-  }
